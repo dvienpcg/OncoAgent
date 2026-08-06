@@ -1,0 +1,3 @@
+TCGA-LIHC | GDC Data Release 40.0 | GDC data-use terms | https://portal.gdc.cancer.gov/projects/TCGA-LIHC
+MIMIC-IV | 3.1 | PhysioNet Credentialed Health Data License | https://physionet.org/content/mimiciv/3.1/
+3D-IRCADb-01 | 1.0 | research-use terms shown during registration | https://www.ircad.fr/research-and-development/data-sets/liver-segmentation-3d-ircadb-01/

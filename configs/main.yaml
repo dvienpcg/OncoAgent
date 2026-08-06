@@ -1,0 +1,36 @@
+seed: 1
+stage_count: 5
+acc_fields: 64
+conflict_labels: 27
+btf:
+  threshold: 0.30
+  depth_cap: 3
+  cooling: 0.10
+vgn:
+  completeness: 0.95
+  consistency: 0.90
+  guideline: 1.0
+samr:
+  screening: 1.0
+  diagnosis: 1.5
+  staging: 3.0
+  treatment: 3.0
+  follow_up: 1.5
+inference:
+  gpu: NVIDIA A100 80GB
+  count: 1
+  peak_memory_gb: 31.2
+  seconds_per_case: 42.7
+statistics:
+  bootstrap_resamples: 10000
+  correction: bonferroni
+  seeds: [1, 2, 3]
+training:
+  status: not_reported
+  batch_size: null
+  learning_rate: null
+  epochs: null
+  optimizer: null
+  scheduler: null
+  precision: null
+
